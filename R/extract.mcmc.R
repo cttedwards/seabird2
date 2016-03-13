@@ -13,10 +13,16 @@ extract.mcmc <- function (file = "samples", path = "", n.sample.files = 1)
     samples.header  <- scan(filename[1], what = "character", nlines = 1)
     parameter.names <- c()
     
-    for (i in 1:length(samples.header)) {
-        
-        if (i%%2 == 0) {
-            parameter.names <- c(parameter.names, paste(samples.header[i - 1], "_", 1:as.integer(samples.header[i]), sep = ""))
+    k <- 1
+    while (k < length(samples.header)) {
+        if (SeaBird.is.whole.number(samples.header[k + 1])) {
+            n.reps <- as.numeric(samples.header[k + 1])
+            parameter.names <- c(parameter.names, paste(rep(samples.header[k], n.reps), 1:n.reps, sep = "."))
+            k <- k + 2
+        }
+        else {
+            parameter.names <- c(parameter.names, samples.header[k])
+            k <- k + 1
         }
     }
     
@@ -26,11 +32,12 @@ extract.mcmc <- function (file = "samples", path = "", n.sample.files = 1)
     # append additional sample files e.g. samples.2, samples.3, etc
     if (n.sample.files > 1) {
         
-        samples <- data.frame(chain = 1, samples)
+        if (nrow(samples) > 0) 
+            samples <- data.frame(chain = 1, iter = 1:nrow(samples), samples)
         
         for (i in 2:n.sample.files) {
             samples.chain <- read.table(filename[i], skip = 1, col.names = parameter.names)
-            samples <- rbind(samples, data.frame(chain = i, samples.chain))
+            samples <- rbind(samples, data.frame(chain = i, iter = 1:nrow(samples.chain), samples.chain))
         }
     }
     

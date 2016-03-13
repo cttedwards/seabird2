@@ -88,3 +88,4 @@ Collate:
     'set.command.with.label.R'
     'set.command.with.nolabel.R'
     'write.sbd.file.R'
+RoxygenNote: 5.0.1
