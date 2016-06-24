@@ -31,14 +31,17 @@ extract.mcmc <- function (file = "samples", path = "", n.sample.files = 1)
     
     # append additional sample files e.g. samples.2, samples.3, etc
     if (n.sample.files > 1) {
-        
-        if (nrow(samples) > 0) 
+        if (nrow(samples) > 0) {
             samples <- data.frame(chain = 1, iter = 1:nrow(samples), samples)
-        
+        } else warning("no samples in sample file")
         for (i in 2:n.sample.files) {
             samples.chain <- read.table(filename[i], skip = 1, col.names = parameter.names)
             samples <- rbind(samples, data.frame(chain = i, iter = 1:nrow(samples.chain), samples.chain))
         }
+    } else {
+        if (nrow(samples) > 0) {
+            samples <- data.frame(iter = 1:nrow(samples), samples)
+        } else warning("no samples in sample file")
     }
     
     # return MCMC samples

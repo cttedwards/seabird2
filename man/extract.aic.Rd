@@ -4,7 +4,7 @@
 \alias{extract.aic}
 \title{extract.aic}
 \usage{
-extract.aic(file, path = "")
+extract.aic(file, path = "", nfixed = 0)
 }
 \description{
 extract.aic
