@@ -9,4 +9,3 @@ extract.quantities.selectivity_at_class(lines)
 \description{
 extract.quantities.selectivity_at_class
 }
-

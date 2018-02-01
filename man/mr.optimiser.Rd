@@ -9,4 +9,3 @@ mr.optimiser(object, labels)
 \description{
 mr.optimiser
 }
-

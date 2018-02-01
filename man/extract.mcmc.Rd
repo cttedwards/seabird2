@@ -9,4 +9,3 @@ extract.mcmc(file = "samples", path = "", n.sample.files = 1)
 \description{
 extract.mcmc
 }
-

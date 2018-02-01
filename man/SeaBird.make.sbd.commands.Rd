@@ -9,4 +9,3 @@ SeaBird.make.sbd.commands(file = "dictionary.cpp", path)
 \description{
 $Id: SeaBird.make.sbd.commands.R 1801 2007-11-22 21:15:33Z adunn $
 }
-

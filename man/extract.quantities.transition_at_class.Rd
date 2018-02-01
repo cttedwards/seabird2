@@ -9,4 +9,3 @@ extract.quantities.transition_at_class(lines)
 \description{
 extract.quantities.transition_at_class
 }
-

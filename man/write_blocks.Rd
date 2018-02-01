@@ -15,4 +15,3 @@ write_blocks(x, ...)
 \description{
 Two files are produced from the transition matrix input, called \code{transition_block.sbd} and \code{classes_block.sbd}. These should be pasted into \code{population.sbd}.
 }
-

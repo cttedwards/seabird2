@@ -9,4 +9,3 @@ set.command.with.autonumber(sbd, command, autonumber, subcommand, argument)
 \description{
 set.command.with.autonumber
 }
-

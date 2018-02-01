@@ -9,4 +9,3 @@ SeaBird.make.filename(file, path = "")
 \description{
 $Id: SeaBird.make.filename.R 1834 2007-12-02 21:32:26Z adunn $
 }
-

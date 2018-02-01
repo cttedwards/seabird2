@@ -9,4 +9,3 @@ extract.quantities.mark_recapture(temp)
 \description{
 extract.quantities.mark_recapture
 }
-

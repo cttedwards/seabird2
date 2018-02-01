@@ -9,4 +9,3 @@ extract.classes(file, path = "./")
 \description{
 extract.classes
 }
-

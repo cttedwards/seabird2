@@ -9,4 +9,3 @@ extract.quantities.lambda(lines)
 \description{
 extract.quantities.lambda
 }
-

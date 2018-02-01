@@ -9,4 +9,3 @@ extract.header(file, path)
 \description{
 extract.header
 }
-

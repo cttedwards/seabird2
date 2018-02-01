@@ -25,4 +25,3 @@ SeaBird.write_mark_recapture(object, composite_labels, composite_map, file,
 \description{
 Writes mark recapture data to a text file appropriate for insertion into \code{estimation.sbd}.
 }
-

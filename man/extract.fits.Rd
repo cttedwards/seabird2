@@ -9,4 +9,3 @@ extract.fits(file, path = "")
 \description{
 extract.fits
 }
-

@@ -9,4 +9,3 @@ SeaBird.make.list(lines)
 \description{
 $Id: SeaBird.make.list.R 1747 2007-11-12 21:01:38Z adunn $
 }
-

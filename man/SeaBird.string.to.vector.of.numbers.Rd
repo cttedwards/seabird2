@@ -9,4 +9,3 @@ SeaBird.string.to.vector.of.numbers(string)
 \description{
 $Id: SeaBird.string.to.vector.of.numbers.R 1747 2007-11-12 21:01:38Z adunn $
 }
-

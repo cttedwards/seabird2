@@ -9,4 +9,3 @@ extract.covariance.matrix(file, path = "")
 \description{
 $Id: extract.covariance.matrix.R 1828 2007-11-30 01:16:07Z adunn $
 }
-

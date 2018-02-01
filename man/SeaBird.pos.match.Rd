@@ -9,4 +9,3 @@ SeaBird.pos.match(vector, regexp)
 \description{
 $Id: SeaBird.pos.match.R 1747 2007-11-12 21:01:38Z adunn $
 }
-

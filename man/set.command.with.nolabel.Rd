@@ -9,4 +9,3 @@ set.command.with.nolabel(sbd, command, subcommand, argument)
 \description{
 set.command.with.nolabel
 }
-

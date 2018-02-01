@@ -18,4 +18,3 @@ parameters = n x npar matrix contining parameter values at each profile point
 \author{
 R.I.C.C. Francis
 }
-

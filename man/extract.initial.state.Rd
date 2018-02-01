@@ -9,4 +9,3 @@ extract.initial.state(file, path)
 \description{
 This requires that \code{initial_state} is set to \code{T} in the \code{output.sbd} file.
 }
-

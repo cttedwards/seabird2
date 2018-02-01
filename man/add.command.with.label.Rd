@@ -9,4 +9,3 @@ add.command.with.label(sbd, command, label, ...)
 \description{
 add.command.with.label
 }
-

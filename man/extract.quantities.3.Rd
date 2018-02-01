@@ -9,4 +9,3 @@ extract.quantities.3(lines)
 \description{
 extract.quantities.3
 }
-

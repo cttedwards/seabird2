@@ -7,4 +7,3 @@
 \description{
 Transition matrix class
 }
-

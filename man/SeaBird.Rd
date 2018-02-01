@@ -19,4 +19,3 @@ SeaBird(exe.dir = ".", sbd.dir = exe.dir, results.dir = exe.dir,
 \description{
 Currently only runs an MPD fit using \code{SeaBird -e}. The session output is piped to a file called \code{mpd.out}.
 }
-

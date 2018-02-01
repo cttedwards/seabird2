@@ -9,4 +9,3 @@ SeaBird.convert.to.lines(filename)
 \description{
 $Id: SeaBird.convert.to.lines.R 1747 2007-11-12 21:01:38Z adunn $
 }
-

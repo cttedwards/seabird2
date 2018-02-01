@@ -9,4 +9,3 @@ extract.quantities.resight_p_at_class(lines)
 \description{
 extract.quantities.resight_p_at_class
 }
-

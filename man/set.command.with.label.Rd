@@ -9,4 +9,3 @@ set.command.with.label(sbd, command, label, subcommand, argument)
 \description{
 set.command.with.label
 }
-

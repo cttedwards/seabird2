@@ -9,4 +9,3 @@ SeaBird.regexpr(x, y, fixed = T)
 \description{
 Regular expression matching
 }
-

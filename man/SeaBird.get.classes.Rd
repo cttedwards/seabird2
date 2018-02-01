@@ -9,4 +9,3 @@ SeaBird.get.classes(filename)
 \description{
 Get vector of class names from \code{population.sbd}
 }
-

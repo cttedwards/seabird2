@@ -11,4 +11,3 @@ SeaBird.convert.lines.to.matrix(lines, from = -1, to = -1, contains = "",
 \description{
 SeaBird.convert.lines.to.matrix
 }
-

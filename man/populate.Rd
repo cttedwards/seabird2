@@ -12,4 +12,3 @@ populate(x, ...)
 \description{
 Transition matrix constructor function
 }
-

@@ -9,4 +9,3 @@ extract.quantities.mapped.survival.parameters(lines)
 \description{
 extract.quantities.mapped.survival.parameters
 }
-

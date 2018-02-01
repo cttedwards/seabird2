@@ -11,4 +11,3 @@ SeaBird.get.lines(lines, from = -1, to = -1, contains = "",
 \description{
 $Id: SeaBird.get.lines.R 1747 2007-11-12 21:01:38Z adunn $
 }
-

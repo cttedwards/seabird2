@@ -6,7 +6,7 @@ PKG_NAME=$(shell grep -i ^package ./DESCRIPTION | cut -d : -d \  -f 2)
 R_FILES := $(wildcard ./R/*.R)
 
 windows: $(R_FILES)
-	R --vanilla -e 'roxygen2::roxygenize(\".\")'
+	R --vanilla -e 'devtools::document(\".\")'
 	Rcmd INSTALL --build .
 
 clean:

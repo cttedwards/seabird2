@@ -9,4 +9,3 @@ get.sbd.command(object, command, label, where.subcommand)
 \description{
 $Id: get.sbd.command.R 1750 2007-11-13 00:45:01Z adunn $
 }
-

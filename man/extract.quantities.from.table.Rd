@@ -9,4 +9,3 @@ extract.quantities.from.table(file, path = "")
 \description{
 $Id: extract.quantities.from.table.R 1828 2007-11-30 01:16:07Z adunn $
 }
-

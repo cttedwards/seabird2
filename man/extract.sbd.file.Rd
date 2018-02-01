@@ -9,4 +9,3 @@ extract.sbd.file(file, path = "")
 \description{
 $Id: extract.csl.file.R 1830 2007-11-30 01:37:18Z adunn $
 }
-

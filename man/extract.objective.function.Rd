@@ -9,4 +9,3 @@ extract.objective.function(file, path = "")
 \description{
 extract.objective.function
 }
-

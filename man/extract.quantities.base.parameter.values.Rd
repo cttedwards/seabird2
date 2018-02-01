@@ -9,4 +9,3 @@ extract.quantities.base.parameter.values(lines)
 \description{
 extract.quantities.base.parameter.values
 }
-

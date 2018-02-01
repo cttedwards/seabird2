@@ -9,4 +9,3 @@ SeaBird.trim.lines(lines)
 \description{
 Trim rows so that any unfinished iterations are removed
 }
-

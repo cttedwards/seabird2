@@ -9,4 +9,3 @@ write.sbd.file(object, file, path)
 \description{
 $Id: write.sbd.file.R 1828 2007-11-30 01:16:07Z adunn $
 }
-

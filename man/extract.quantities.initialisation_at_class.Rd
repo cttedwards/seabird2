@@ -9,4 +9,3 @@ extract.quantities.initialisation_at_class(lines)
 \description{
 extract.quantities.initialisation_at_class
 }
-

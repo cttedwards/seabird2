@@ -9,4 +9,3 @@ extract.aic(file, path = "", nfixed = 0)
 \description{
 extract.aic
 }
-

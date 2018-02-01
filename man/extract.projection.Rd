@@ -9,4 +9,3 @@ extract.projection(file = "", path = "", write.to.file = TRUE)
 \description{
 Extract projection results to data frame
 }
-

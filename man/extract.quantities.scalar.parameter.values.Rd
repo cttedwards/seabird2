@@ -9,4 +9,3 @@ extract.quantities.scalar.parameter.values(lines)
 \description{
 extract.quantities.scalar.parameter.values
 }
-

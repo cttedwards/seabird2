@@ -9,4 +9,3 @@ extract.quantities.survival_at_class(lines)
 \description{
 extract.quantities.survival_at_class
 }
-

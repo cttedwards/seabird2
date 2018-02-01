@@ -9,4 +9,3 @@ extract.quantities.recruitment_at_class(lines)
 \description{
 extract.quantities.recruitment_at_class
 }
-

@@ -9,4 +9,3 @@ extract.correlation.matrix(file, path = "")
 \description{
 extract.correlation.matrix
 }
-

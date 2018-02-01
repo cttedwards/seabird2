@@ -9,4 +9,3 @@ extract.quantities.vector.parameter.values(lines)
 \description{
 extract.quantities.vector.parameter.values
 }
-
